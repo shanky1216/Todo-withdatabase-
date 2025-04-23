@@ -15,7 +15,7 @@ app.use((req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://geeksshashank:$Hanky1996@cluster0.0bxwz.mongodb.net/todo"
+    "mongodb+srv://geeksshashank:<password>@cluster0.0bxwz.mongodb.net/todo"
   )
   .then(() => {
     app.listen(8080);
